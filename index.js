@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const token = process.env.token;
 var prefix = "$"
 
-client.login('NTQ1MjkyNTgyMDA0MTk1MzUx.D0iElg.fXXOSl8caMoMoIxHUUPSgEKkGBA');
+client.login(token);
